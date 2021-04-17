@@ -1,3 +1,3 @@
 # Aparelhos-Cisco
 Arquivos de configuração aparelhos ip cisco
-Todos os SEPMAC.xml devem ser alterados para a configuração ideal do seu ambiente para que não ocorra problemas de utilizadaddd
+Todos os arquivos do tip SEPMAC.xml devem ser alterados para a configuração do seu ambiente pois as configurações atuais não vao funcionar.
