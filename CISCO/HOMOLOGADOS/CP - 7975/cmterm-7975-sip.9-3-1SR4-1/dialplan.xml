@@ -1,0 +1,9 @@
+<DIALTEMPLATE>
+  <TEMPLATE match="3.." timeout="1" />
+  <TEMPLATE match="..." timeout="2" />
+  <TEMPLATE match="......." timeout="2" />
+  <TEMPLATE match="0........" timeout="2" />
+  <TEMPLATE match="*" timeout="3" />
+
+    <TEMPLATE MATCH="."              Timeout="1" User="Phone"/> <!-- Local operator-->
+</DIALTEMPLATE>

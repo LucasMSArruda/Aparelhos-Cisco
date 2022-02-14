@@ -1,0 +1,8 @@
+INFORMAÇÕES UTEIS:
+
+Senha das configurações CP-79XX, CP-69XX: **#
+
+Proxy: USECALLMANAGER
+
+CISCO CP-7941:
+*Esse aparelho não suporta senha maior que 8 caracteres.

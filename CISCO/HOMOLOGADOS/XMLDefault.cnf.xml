@@ -1,0 +1,174 @@
+<Default>
+<autoRegistrationName>AUTO-REG</autoRegistrationName>
+<autoRegistration>disabled</autoRegistration>
+<selfProvisioningSecureMode>true</selfProvisioningSecureMode>
+<adminProvisionMode>false</adminProvisionMode>
+<ipAddressMode>0</ipAddressMode>
+<ipPreferenceModeControl>0</ipPreferenceModeControl>
+<ipMediaAddressFamilyPreference>0</ipMediaAddressFamilyPreference>
+<callManagerGroup>
+<name>Default</name>
+<tftpDefault>true</tftpDefault>
+<members>
+<member  priority="0">
+<callManager>
+<name>cucmpub1</name>
+<description>cucmpub1</description>
+<ports>
+<ethernetPhonePort>2000</ethernetPhonePort>
+<sipPort>5060</sipPort>
+<securedSipPort>5061</securedSipPort>
+<mgcpPorts>
+<listen>2427</listen>
+<keepAlive>2428</keepAlive>
+</mgcpPorts>
+</ports>
+<processNodeName>cucmpub1</processNodeName>
+</callManager>
+</member>
+</members>
+</callManagerGroup>
+<TVS>
+<members>
+<member  priority="0">
+<port>2445</port>
+<address>cucmpub1</address>
+</member>
+</members>
+</TVS>
+<loadInformation548  model="Cisco 6911">SCCP6911.9-3-1-SR2-3</loadInformation548>
+<loadInformation497  model="Cisco 6961">SCCP69xx.9-4-1-3SR2</loadInformation497>
+<loadInformation614  model="Cisco TelePresence Profile 52 Dual (C60)"></loadInformation614>
+<loadInformation616  model="Cisco TelePresence Profile 65 Dual (C90)"></loadInformation616>
+<loadInformation558  model="Cisco TelePresence 400"></loadInformation558>
+<loadInformation557  model="Cisco TelePresence 200"></loadInformation557>
+<loadInformation628  model="IMS-integrated Mobile (Basic)"></loadInformation628>
+<loadInformation30006  model="Cisco 7970">SCCP70.9-4-2SR1-1S</loadInformation30006>
+<loadInformation684  model="Cisco 8851">sip88xx.11-5-1-18</loadInformation684>
+<loadInformation593  model="Cisco Cius"></loadInformation593>
+<loadInformation520  model="Cisco TelePresence 1100"></loadInformation520>
+<loadInformation592  model="Cisco 3905">CP3905.9-4-1SR2-2</loadInformation592>
+<loadInformation36217  model="Cisco 8811">sip88xx.11-5-1-18</loadInformation36217>
+<loadInformation36225  model="Cisco 8865">sip8845_65.11-5-1-18</loadInformation36225>
+<loadInformation36213  model="Cisco 7811">sip78xx.11-5-1-18</loadInformation36213>
+<loadInformation645  model="Universal Device Template"></loadInformation645>
+<loadInformation36207  model="Cisco TelePresence MX700"></loadInformation36207>
+<loadInformation115  model="Cisco 7941">SCCP41.9-4-2SR1-1S</loadInformation115>
+<loadInformation480  model="Cisco TelePresence 3200"></loadInformation480>
+<loadInformation648  model="Cisco Unified Communications for RTX"></loadInformation648>
+<loadInformation30016  model="Cisco IP Communicator"></loadInformation30016>
+<loadInformation36043  model="Cisco DX70"></loadInformation36043>
+<loadInformation30032  model="SCCP gateway virtual phone"></loadInformation30032>
+<loadInformation496  model="Cisco 6941">SCCP69xx.9-4-1-3SR2</loadInformation496>
+<loadInformation610  model="Cisco TelePresence Profile 42 (C20)"></loadInformation610>
+<loadInformation36227  model="Cisco TelePresence MX800 Dual"></loadInformation36227>
+<loadInformation478  model="Cisco TelePresence 1000"></loadInformation478>
+<loadInformation308  model="Cisco 7961G-GE">SCCP41.9-4-2SR1-1S</loadInformation308>
+<loadInformation540  model="Cisco 8961">sip8961.9-4-2SR2-2</loadInformation540>
+<loadInformation309  model="Cisco 7941G-GE">SCCP41.9-4-2SR1-1S</loadInformation309>
+<loadInformation613  model="Cisco TelePresence Profile 52 (C60)"></loadInformation613>
+<loadInformation30019  model="Cisco 7936">cmterm_7936.3-3-21-0</loadInformation30019>
+<loadInformation481  model="Cisco TelePresence 500-37"></loadInformation481>
+<loadInformation12  model="Cisco ATA 186">ATA030204SCCP090202A</loadInformation12>
+<loadInformation36216  model="Cisco 8821"></loadInformation36216>
+<loadInformation412  model="Cisco 3951">SIP3951.8-1-4a</loadInformation412>
+<loadInformation690  model="Cisco TelePresence MX300 G2"></loadInformation690>
+<loadInformation583  model="Generic Multiple Screen Room System"></loadInformation583>
+<loadInformation365  model="Cisco 7921">CP7921G-1.4.6.3</loadInformation365>
+<loadInformation30035  model="IP-STE"></loadInformation30035>
+<loadInformation586  model="Cisco 8941">SCCP894x.9-4-2SR2-2</loadInformation586>
+<loadInformation369  model="Cisco 7906">SCCP11.9-4-2SR1-1S</loadInformation369>
+<loadInformation582  model="Generic Single Screen Room System"></loadInformation582>
+<loadInformation30018  model="Cisco 7961">SCCP41.9-4-2SR1-1S</loadInformation30018>
+<loadInformation550  model="Cisco ATA 187">ATA187.9-2-3-1</loadInformation550>
+<loadInformation608  model="Cisco TelePresence Codec C40"></loadInformation608>
+<loadInformation36210  model="Cisco TelePresence IX5000"></loadInformation36210>
+<loadInformation681  model="Cisco ATA 190">ATA190.1-2-2-003</loadInformation681>
+<loadInformation495  model="Cisco 6921">SCCP69xx.9-4-1-3SR2</loadInformation495>
+<loadInformation633  model="Cisco TelePresence Profile 42 (C40)"></loadInformation633>
+<loadInformation585  model="Cisco 8945">SCCP894x.9-4-2SR2-2</loadInformation585>
+<loadInformation689  model="Cisco TelePresence MX200 G2"></loadInformation689>
+<loadInformation446  model="Cisco 3911">SIP3951.8-1-4a</loadInformation446>
+<loadInformation682  model="Cisco TelePresence SX10"></loadInformation682>
+<loadInformation606  model="Cisco TelePresence Codec C90"></loadInformation606>
+<loadInformation521  model="Transnova S3"></loadInformation521>
+<loadInformation36241  model="Cisco TelePresence DX70"></loadInformation36241>
+<loadInformation307  model="Cisco 7911">SCCP11.9-4-2SR1-1S</loadInformation307>
+<loadInformation659  model="Cisco 8831">sip8831.10-3-1SR2-2</loadInformation659>
+<loadInformation30  model="Analog Access">A001C030</loadInformation30>
+<loadInformation47  model="Analog Access WS-X6624">A00204000013</loadInformation47>
+<loadInformation51  model="Conference Bridge WS-X6608">C00104000003</loadInformation51>
+<loadInformation40  model="Digital Access">D001M022</loadInformation40>
+<loadInformation43  model="Digital Access WS-X6608">D00404000032</loadInformation43>
+<loadInformation42  model="Digital Access+">D00303010033</loadInformation42>
+<loadInformation61  model="H.323 Phone"></loadInformation61>
+<loadInformation7  model="Cisco 7960">P0030801SR02</loadInformation7>
+<loadInformation100  model="Load Simulator"></loadInformation100>
+<loadInformation111  model="Media Termination Point Hardware">M00104000006</loadInformation111>
+<loadInformation120  model="MGCP Station"></loadInformation120>
+<loadInformation121  model="MGCP Trunk"></loadInformation121>
+<loadInformation588  model="Generic Desktop Video Endpoint"></loadInformation588>
+<loadInformation632  model="Cisco Cius SP"></loadInformation632>
+<loadInformation647  model="Cisco DX650"></loadInformation647>
+<loadInformation348  model="Cisco 7931">SCCP31.9-4-2SR1-1S</loadInformation348>
+<loadInformation627  model="Cisco TelePresence MX300"></loadInformation627>
+<loadInformation635  model="CTI Remote Device"></loadInformation635>
+<loadInformation36235  model="Cisco Spark Remote Device"></loadInformation36235>
+<loadInformation607  model="Cisco TelePresence Codec C60"></loadInformation607>
+<loadInformation537  model="Cisco 9951">sip9951.9-4-2SR2-2</loadInformation537>
+<loadInformation621  model="Cisco 7821">sip78xx.11-5-1-18</loadInformation621>
+<loadInformation431  model="Cisco 7937">apps37sccp.1-4-5-7</loadInformation431>
+<loadInformation376  model="Nokia S60"></loadInformation376>
+<loadInformation375  model="Cisco TelePresence"></loadInformation375>
+<loadInformation609  model="Cisco TelePresence Quick Set C20"></loadInformation609>
+<loadInformation685  model="Cisco 8861">sip88xx.11-5-1-18</loadInformation685>
+<loadInformation688  model="Cisco TelePresence SX80"></loadInformation688>
+<loadInformation11  model="Cisco VGC Virtual Phone"></loadInformation11>
+<loadInformation591  model="Cisco TelePresence 1300-47"></loadInformation591>
+<loadInformation620  model="Cisco TelePresence TX9200"></loadInformation620>
+<loadInformation10  model="Cisco VGC Phone"></loadInformation10>
+<loadInformation484  model="Cisco 7925">CP7925G-1.4.8.4</loadInformation484>
+<loadInformation617  model="Cisco TelePresence MX200"></loadInformation617>
+<loadInformation562  model="Cisco Dual Mode for iPhone"></loadInformation562>
+<loadInformation36239  model="Cisco TelePresence DX80"></loadInformation36239>
+<loadInformation8  model="Cisco 7940">P0030801SR02</loadInformation8>
+<loadInformation479  model="Cisco TelePresence 3000"></loadInformation479>
+<loadInformation30027  model="Analog Phone"></loadInformation30027>
+<loadInformation622  model="Cisco 7841">sip78xx.11-5-1-18</loadInformation622>
+<loadInformation119  model="Cisco 7971">SCCP70.9-4-2SR1-1S</loadInformation119>
+<loadInformation626  model="Cisco TelePresence SX20"></loadInformation626>
+<loadInformation596  model="Cisco TelePresence TX1310-65"></loadInformation596>
+<loadInformation577  model="Cisco 7926">CP7926G-1.4.8.4</loadInformation577>
+<loadInformation564  model="Cisco 6945">SCCP6945.9-4-1-3SR2</loadInformation564>
+<loadInformation604  model="Cisco TelePresence EX60"></loadInformation604>
+<loadInformation36042  model="Cisco DX80"></loadInformation36042>
+<loadInformation437  model="Cisco 7975">SCCP75.9-4-2SR1-1S</loadInformation437>
+<loadInformation36232  model="Cisco 8851NR">sip88xx.11-5-1-18</loadInformation36232>
+<loadInformation547  model="Cisco 6901">SCCP6901.9-3-1-SR2-2</loadInformation547>
+<loadInformation404  model="Cisco 7962">SCCP42.9-4-2SR1-1S</loadInformation404>
+<loadInformation435  model="Cisco 7945">SCCP45.9-4-2SR1-1S</loadInformation435>
+<loadInformation302  model="Cisco 7985">cmterm_7985.4-1-7-0</loadInformation302>
+<loadInformation612  model="Cisco TelePresence Profile 52 (C40)"></loadInformation612>
+<loadInformation580  model="Cisco E20"></loadInformation580>
+<loadInformation619  model="Cisco TelePresence TX9000"></loadInformation619>
+<loadInformation575  model="Cisco Dual Mode for Android"></loadInformation575>
+<loadInformation434  model="Cisco 7942">SCCP42.9-4-2SR1-1S</loadInformation434>
+<loadInformation36224  model="Cisco 8845">sip8845_65.11-5-1SR1-1</loadInformation36224>
+<loadInformation623  model="Cisco 7861">sip78xx.11-5-1-18</loadInformation623>
+<loadInformation30028  model="ISDN BRI Phone"></loadInformation30028>
+<loadInformation358  model="Cisco Unified Personal Communicator"></loadInformation358>
+<loadInformation642  model="Carrier-integrated Mobile"></loadInformation642>
+<loadInformation503  model="Cisco Unified Client Services Framework"></loadInformation503>
+<loadInformation590  model="Cisco TelePresence 500-32"></loadInformation590>
+<loadInformation493  model="Cisco 9971">sip9971.9-4-2SR2-2</loadInformation493>
+<loadInformation652  model="Cisco Jabber for Tablet"></loadInformation652>
+<loadInformation335  model="Motorola CN622"></loadInformation335>
+<loadInformation436  model="Cisco 7965">SCCP45.9-4-2SR1-1S</loadInformation436>
+<loadInformation683  model="Cisco 8841">sip88xx.11-5-1-18</loadInformation683>
+<loadInformation505  model="Cisco TelePresence 1300-65"></loadInformation505>
+<loadInformation584  model="Cisco TelePresence EX90"></loadInformation584>
+<loadInformation36208  model="Cisco TelePresence MX800"></loadInformation36208>
+<loadInformation611  model="Cisco TelePresence Profile 42 (C60)"></loadInformation611>
+<loadInformation634  model="Cisco VXC 6215"></loadInformation634>
+<loadInformation615  model="Cisco TelePresence Profile 65 (C60)"></loadInformation615>
+</Default>
