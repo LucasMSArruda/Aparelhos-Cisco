@@ -1,8 +1,10 @@
-INFORMAÇÕES UTEIS:
+INFORMAÃ‡Ã•ES UTEIS:
 
-Senha das configurações CP-79XX, CP-69XX: **#
+Senha das configuraÃ§Ãµes CP-79XX, CP-69XX: **#
 
 Proxy: USECALLMANAGER
 
 CISCO CP-7941:
-*Esse aparelho não suporta senha maior que 8 caracteres.
+*Esse aparelho nÃ£o suporta senha maior que 8 caracteres.
+
+Revise todos os arquivos de SEPMAC.xml antes de utilizar.
